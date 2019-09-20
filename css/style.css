@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    font-size: 14px;
+    padding: 0;
+}
+
+.header-top{
+    background: #428b16;
+    color: #ffffff;
+    padding: 0.6rem 0;
+}
+
+.header-top .user{
+    margin: 0;
+    padding-left: 0;
+}
+
+.header-top a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-top .user li{
+    list-style-type: none;
+}
+
+.kuro{
+    height: 25px;
+    width: 0.8px;
+    background: #ffffff;
+    margin: 0 0.5rem;
+    opacity: 0.4;
+}
+
+.header-mid{
+    background: #51aa1b;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.header-mid .logo img{
+    width: 100%;
+}
+
+.header-mid .logo{
+    padding: 1rem 0;
+}
+
+.header-mid .hotline-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-mid .hotline span{
+    display: block;
+    font-weight: 600;
+}
+
+.header-mid .kuro2{
+    height: 35px;
+    width: 0.8px;
+    background: #ffffff;
+    margin: 0 0.6rem;
+    opacity: 0.8;
+}
+
+.header-mid .cart{
+    position: relative;
+    margin-left: 1rem;
+}
+
+.header-mid .cart i{
+    font-size: 1.5rem;
+}
+
+.header-mid .cart span{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    height: 15px;
+    width: 15px;
+    background: #f9c938;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    line-height: 18px;
+}
+
+.header-bottom{
+    background: #428b16;
+}
+
+.header-bottom .nav-link{
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header-bottom .navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.banner{
+    height: 100vh;
+    background: url('https://bizweb.dktcdn.net/100/360/151/themes/727143/assets/slider_1.jpg?1564021130230');
+    width: 100%;
+    position: relative;
+}
+.banner__footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.banner-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: url("http://bizweb.dktcdn.net/100/360/151/themes/727143/assets/wave_white.svg?1563959345348") no-repeat  ;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+.banner-content:before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    transform: translateY(-1px);
+    left: 0%;
+    background: white;
+}
+.banner-content h2{
+    font-size: 40px;
+    font-weight: 500;
+   
+}
+.banner-content h2 a{
+    color: #292929;
+}
+
+.banner-content .description{
+    font-size: 1.1rem;
+    color: #b7b7b7;
+}
+.g-title{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.product{ 
+    padding: 2rem 0rem;
+}
+.product-slider{
+    position: relative;
+}
+.btn--arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+
+}
+.firt-arrow {
+    left: 100%;
+}
+.last-arrow {
+    right: 100%;
+}
+.product-slider figure .box-product {
+    overflow: hidden;
+    position: relative
+}
+.product-slider figure .box-product .action{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.product-slider figure .box-product .action button {
+    transform: translateY(100%);
+    transition: .3s ease-in-out
+}
+.product-slider figure:hover .action button {
+    transform: translateY(0);
+}
+.product-slider figure img {
+    transition: .4s ease-in-out
+}
+.product-slider figure:hover img {
+    transform: scale(1.07);
+}
+.product-slider .title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: black;
+}
+.product-slider .slick-slide {
+    margin: 0rem 1rem;
+}
+/* advertisement */
+.advertisement {
+    position: relative;
+}
+.advertisement .content {
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+}
+.advertisement .btn--custom {
+    border-radius: 100px;
+    padding: .4rem 1rem;
+    font-weight: 600;
+}
+
+
